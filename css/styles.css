@@ -1,0 +1,365 @@
+/* gerais*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@media (max-width: 600px) {
+  nav,
+  article {
+    width: 100%;
+    height: auto;
+  }
+}
+html {
+  height: 100%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: roboto, sans-serif;
+  background-color: #fde3c0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  margin: 0;
+}
+.container {
+  padding: 70px 0;
+}
+
+p,
+li {
+  color: #444444;
+  font-size: 16px;
+}
+
+/* barra de navegação */
+header,
+.navbar {
+  background-color: #8d1319;
+  box-shadow: 0px 0px 4px #272727;
+}
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+/* logo da salada */
+.navbar-dark .navbar-brand {
+  padding: 0;
+  color: #fde3c0;
+}
+
+.navbar-dark .navbar-brand:hover {
+  color: #ffc68f;
+  transition: all 0.8s;
+}
+/* texto do logo */
+
+a {
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: #ffc68f;
+  background-color: #8d1319;
+  transition: all 0.8s;
+}
+#navbar-links a {
+  color: #fde3c0;
+} /*links*/
+
+#navbar-links a:hover {
+  color: #ffc68f;
+  background-color: #8d1319;
+  transition: 0.8s;
+} /*hover dos links*/
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem 0.8rem;
+}
+/* jump*/
+
+.banner {
+  background-image: url(/img/mesa.jpg);
+  background-size: cover;
+}
+
+.titulo-banner {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 6px;
+  margin-right: 6px;
+  justify-content: center;
+  color: #faebd7;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 3px #444444;
+}
+
+.paragrafo-banner {
+  display: flex;
+  text-align: center;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 8px;
+  font-size: 22px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #272626;
+}
+
+.bot-receita {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#receita {
+  border: solid;
+  background-color: #8d1319;
+  text-decoration: none;
+  padding: 10px;
+  color: #fde3c0;
+  border-color: #8d1319;
+  cursor: pointer;
+}
+#receita:hover {
+  color: #ffc68f;
+  background-color: #c4141c;
+  border: solid #c4141c;
+  transition: all 0.8s;
+  box-shadow: 0px 0px 4px #272727;
+}
+
+#contact-area {
+  background-color: #fddbae;
+  text-align: center;
+}
+.main-title {
+  text-align: center;
+  margin: 0 0 65px 0;
+}
+.about-title {
+  text-align: center;
+}
+
+#about-list {
+  list-style: none;
+}
+
+#abaut-area p {
+  padding-top: 40px;
+}
+
+
+.list-group-item{background-color:#ffc68f}
+
+
+
+
+
+
+footer {
+  margin-top: auto;
+}
+
+.contact-box {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #8d1319;
+}
+
+.contact-box i {
+  color: #8d1319;
+  border: solid 1px #ffc68f;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 24px;
+  margin-bottom: 20px;
+
+}
+
+.contact-box i:hover {
+  color: #c4141c;
+  border-color: #ffc68f;
+  box-shadow: 0px 0px 3px #929292;
+  transition: all 0.4s;
+}
+
+.contact-box p {
+  font-size: 16px;
+}
+
+.contact-title {
+  font-weight: bold;
+  color: #8d1319;
+}
+#msg-box p {
+  font-size: 22px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  border: solid 1px #8d1319;
+  margin-bottom: 15px;
+  background-color: #faebd7;
+}
+#contact-form .main-btn {
+  width: 120px;
+  height: 50px;
+  border: solid #8d1319;
+  background-color: #8d1319;
+  color: #fde3c0;
+}
+
+#contact-form .main-btn:hover {
+  color: #ffc68f;
+  background-color: #c4141c;
+  border: #c4141c;
+  transition: all 0.8s;
+  box-shadow: 0px 0px 4px #929292;
+}
+
+#link-box {
+  text-align: center;
+  color: #8d1319;
+}
+
+#link-box i {
+  text-align: center;
+  color: #8d1319;
+}
+.contact-box a{text-decoration: none;}
+#link-box a {
+  font-size: 22px;
+  text-decoration: none;
+}
+#link-box span:hover{color: #c4141c;}
+
+.link-text {
+  color: #8d1319;
+  font-weight: bold;
+}
+
+#link-box i:hover {
+  color: #c4141c;
+}
+
+
+#copy-area {
+  background-color: #8d1319;
+}
+
+#copy-area .container {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#copy-area .container p {
+  margin-bottom: 0;
+  color: #fde3c0;
+}
+#copy-area .container a {
+  text-decoration: none;
+  color: #fde3c0;
+}
+
+#copy-area .container a:hover {
+  text-decoration: none;
+  color: #ffc68f;
+}
+
+#news-area {
+  padding: 40px;
+  margin-top: 20px;
+  text-align: center;
+}
+#news-area p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+#news-form input {
+  border: solid 1px #8d1319;
+
+  background-color: #faebd7;
+}
+
+#basic-addon1 {
+  padding: 0 30;
+  margin-right: -10px;
+  border: solid 1px #8d1319;
+  background-color: #8d1319;
+  color: #fde3c0;
+}
+
+#news-btn.form-control {
+  color: #faebd7;
+  background: #8d1319;
+}
+
+#news-btn.form-control:hover {
+  background: #c4141c;
+  color: #ffc68f;
+  cursor: pointer;
+}
+
+#inputGroupSelect01 {
+  color: #495057;
+  border: solid 1px #8d1319;
+
+  background-color: #faebd7;
+}
+.input-group-text {
+  padding-left: 0.2rem;
+}
+
+/*Receitas*/
+.receita-area {
+  box-sizing: border-box;
+}
+
+.card-body {
+  margin: 20px;
+  margin-bottom: 40px;
+  background-color: #ffc68f;
+}
+.card-body p {
+  text-align: center;
+  margin-top: 20px;
+}
+.card-body:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 1px 4px #495057;
+  transition: all 0.4s;
+}
+
+.card-title {
+  color: #8d1319;
+  text-align: center;
+}
+
+.card-span {
+  font-weight: bold;
+  text-align: center;
+  color: #8d1319;
+}
+.receita-area .main-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}

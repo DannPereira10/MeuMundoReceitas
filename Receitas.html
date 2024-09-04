@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <title>MeuMundo | Receitas</title>
+    <link rel="shortcut icon" href="img/salada64px.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fonte -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- jquery -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <!-- popper -->
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap -->
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- css -->
+    <script
+      src="https://kit.fontawesome.com/2274593952.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fontawesome -->
+    <script src="js/progressbar.min.js"></script>
+    <!-- progressbar -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <!-- parallax  -->
+  </head>
+  <body>
+    <header>
+      <div class="container" id="nav-container">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+          <a class="navbar-brand" href="index.html">
+            <img
+              id="logo"
+              src="img/salada64px.png"
+              alt="logo do site"
+            />MeuMundo | Receitas
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar-links"
+            aria-controls="navbar-links"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbar-links"
+          >
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="index.html" id="home-menu"
+                >Home</a
+              >
+              <a
+                class="nav-item nav-link"
+                href="Receitas.html"
+                id="pagina-receita"
+                >Receitas</a
+              >
+              <a
+                class="nav-item nav-link"
+                href="Cadastro.html"
+                id="pagina-cadastro"
+                >Cadastro</a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="receita-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="main-title">Nossas Receitas</h2>
+            </div>
+          </div>
+
+          <div class="row" id="primeira-linha">
+            <div class="col-12" id="titulo"></div>
+            <div class="row">
+              <div class="col-md-4" id="café">
+                <div class="card-body">
+                  <h5 class="card-title">Brigadeiro de Café</h5>
+                  <img
+                    src="/img/brigadeiro.jpeg"
+                    class="card-img-top"
+                    alt="foto brigadeiro de café"
+                  />
+                  <p>
+                    <span class="card-span">Tempo de preparo:</span> 15 Minutos
+                  </p>
+                  <p><span class="card-span">Ingredientes:</span></p>
+                  <ul class="card-list">
+                    <li class="list">1 lata de leite condensado</li>
+                    <li class="list">
+                      1 colher (sobremesa) cheia de chocolate em pó
+                    </li>
+                    <li class="list">1 colher (sobremesa) rasa de café</li>
+                    <li class="list">60 g de margarina</li>
+                  </ul>
+                  <hr />
+                  <p><span class="card-span">Modo de Preparo:</span></p>
+                  <p>
+                    Coloque o leite condensado, a margarina e o café em uma
+                    panela ao fogo; Espere o café se dissolver (sempre mexendo
+                    para não agarrar); Depois que o café estiver mais ou menos
+                    dissolvido, acrescente o chocolate em pó; Abaixe o fogo e
+                    continue mexendo até dar ponto de brigadeiro; Se quiser
+                    enrolar, pegue uma pequena porção com uma colher e enrole na
+                    mão, depois passe no chocolate em pó.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4" id="arroz">
+                <div class="card-body">
+                  <h5 class="card-title">Arroz Cremoso</h5>
+                  <img
+                    src="/img/arroz.jpg"
+                    class="card-img-top"
+                    alt="foto arroz cremoso"
+                  />
+                  <p>
+                    <span class="card-span">Tempo de preparo:</span> 20 Minutos
+                  </p>
+                  <p><span class="card-span">Ingredientes:</span></p>
+                  <ul class="card-list">
+                    <li class="list">3 colheres de sopa de azeite</li>
+                    <li class="list">1/2 cebola</li>
+                    <li class="list">1 talo de alho-poró</li>
+                    <li class="list">
+                      1 e 1/2 xícara de chá de arroz branco cozido (amanhecido)
+                    </li>
+                    <li class="list">
+                      3 colheres de sopa de Maionese Hellmann's1 e 1/2 xícara de
+                      chá de arroz branco cozido (amanhecido)
+                    </li>
+                    <li class="list">1 xícara de chá de água</li>
+                    <li class="list">1/2 xícara de chá de cheiro-verde</li>
+                    <li class="list">
+                      queijo parmesão ou queijo mussarela ralada para finalizar
+                    </li>
+                  </ul>
+                  <hr />
+                  <p><span class="card-span">Modo de Preparo:</span></p>
+                  <p>
+                    Em uma panela coloque o azeite, refogue a cebola, cenoura e
+                    o alho-poró; Junte o arroz cozido (amanhecido) e mexa bem
+                    até aquecer; Acrescente a maionese Hellmann's e adicione a
+                    água aos poucos, misture até ficar bem cremosa; Desligue o
+                    fogo, salpique o cheiro verde e finalize com o queijo de sua
+                    preferência.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4" id="maracuja">
+                <div class="card-body">
+                  <h5 class="card-title">Mousse de Maracuja</h5>
+                  <img
+                    src="/img/mousse.jpeg"
+                    class="card-img-top"
+                    alt="mousse de Maracuja"
+                  />
+                  <p>
+                    <span class="card-span">Tempo de preparo:</span> 10 Minutos
+                  </p>
+                  <p><span class="card-span">Ingredientes:</span></p>
+                  <ul class="card-list">
+                    <li class="list">1 lata de leite condensado</li>
+                    <li class="list">1 lata de creme de leite</li>
+                    <li class="list">
+                      A mesma medida de suco concentrado de maracujá
+                    </li>
+                    <li class="list">Sementes de maracujá para decorar</li>
+                  </ul>
+                  <hr />
+                  <p><span class="card-span">Modo de Preparo:</span></p>
+                  <p>
+                    Bata todos os ingredientes no liquidificador, exceto as
+                    sementes; Coloque em um refratário, decore e leve à
+                    geladeira por alguns minutos.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="segunda-linha">
+            <div class="col-12"></div>
+            <div class="row">
+              <div class="col-md-4" id="queijo">
+                <div class="card-body">
+                  <h5 class="card-title">Pão de Queijo de Liquidificador</h5>
+                  <img
+                    src="/img/pao.jpg"
+                    class="card-img-top"
+                    alt="pão de queijo"
+                  />
+                  <p>
+                    <span class="card-span">Tempo de preparo:</span> 15 Minutos
+                  </p>
+                  <p><span class="card-span">Ingredientes:</span></p>
+                  <ul class="card-list">
+                    <li class="list">1 xícara (chá) de Leite Líquido</li>
+                    <li class="list">1 ovos</li>
+                    <li class="list">2 xícaras (chá) de polvilho doce</li>
+                    <li class="list">
+                      1 xícara (chá) de queijo parmesão ralado
+                    </li>
+                    <li class="list">
+                      3 colheres de sopa de Maionese Hellmann's1 e 1/2 xícara de
+                      chá de arroz branco cozido (amanhecido)
+                    </li>
+                    <li class="list">1 pitada de sal</li>
+                  </ul>
+                  <hr />
+                  <p>
+                    <span class="card-span">Modo de Preparo:</span> Em um
+                    liquidificador, coloque o Leite NINHO, o óleo, os ovos, o
+                    polvilho, o queijo e o sal e bata até obter uma mistura
+                    homogênea; Despeje a massa até a metade de forminhas para
+                    empadas untadas; Leve para assar em forno médio (180°C)
+                    preaquecido por cerca de 15 minutos ou até dourar; Reserve
+                    para amornar e desenforme.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4" id="bolo">
+                <div class="card-body">
+                  <h5 class="card-title">Bolo de Chocolate na Airfryer</h5>
+                  <img
+                    src="/img/bolo.jpeg"
+                    class="card-img-top"
+                    alt="Bolo de Chocolate na Airfryer"
+                  />
+                  <p>
+                    <span class="card-span">Tempo de preparo:</span> 35 Minutos
+                  </p>
+                  <p><span class="card-span">Ingredientes:</span></p>
+                  <ul class="card-list">
+                    <li class="list">1 xícara (chá) de óleo</li>
+                    <li class="list">1 xícara (chá) de Leite Líquido</li>
+                    <li class="list">3 ovos</li>
+                    <li class="list">
+                      2 e meia xícaras (chá) de farinha de trigo
+                    </li>
+                    <li class="list">1 e meia xícara (chá) de açúcar</li>
+                    <li class="list">meia xícara (chá) de Chocolate em Pó</li>
+                    <li class="list">1 colher (sopa) de fermento em pó</li>
+                  </ul>
+                  <p><span class="card-span">Cobertura:</span></p>
+                  <ul>
+                    <li class="list">meia xícara (chá) de Chocolate em Pó</li>
+                    <li class="list">1 xícara (chá) de açúcar</li>
+                    <li class="list">2 colheres (sopa) de manteiga</li>
+                    <li class="list">meia xícara (chá) de Leite Líquido</li>
+                  </ul>
+                  <hr />
+                  <p>
+                    <span class="card-span">Modo de Preparo:</span>1. Pré-aqueça
+                    a Airfryer a 160ºC; Em um recipiente bata todos os
+                    ingredientes com o auxílio de um batedor de arame ou
+                    espátula; Despeje a massa em uma forma redonda de furo
+                    central (19 cm de diâmetro) alta e que caiba em sua
+                    Airfryer, untada e enfarinhada. Coloque-a no cesto da
+                    fritadeira e deslize para dentro. Ajuste o timer para cerca
+                    de 20 minutos e asse até que cresça e fique firme. Retire,
+                    espere amornar e desenforme. Reserve. Cobertura Em uma
+                    panela em fogo médio, misture todos os ingredientes e deixe
+                    ferver por cerca de 10 minutos, mexendo até engrossar.
+                    Despeje a cobertura sobre o bolo reservado e sirva.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4" id="tortinha">
+                <div class="card-body">
+                  <h5 class="card-title">Tortinha de Maçã na Air Fryer</h5>
+                  <img
+                    src="/img/tortinha.jpg"
+                    class="card-img-top"
+                    alt="Tortinha de Maçã na Air Fryer"
+                  />
+                  <p>
+                    <span class="card-span">Tempo de preparo:</span> 45 Minutos
+                  </p>
+                  <p><span class="card-span">Ingredientes:</span></p>
+                  <ul class="card-list">
+                    <li class="list">
+                      1 pacote de Biscoito TOSTINES® Especiarias
+                    </li>
+                    <li class="list">meia xícara (chá) de manteiga sem sal</li>
+                    <li class="list">meia lata de Leite MOÇA®</li>
+                    <li class="list">3 gemas</li>
+                    <li class="list">3 maças em fatias finas</li>
+                  </ul>
+                  <hr />
+                  <p><span class="card-span">Modo de Preparo:</span></p>
+                  <p>
+                    Em um processador, triture o Biscoito TOSTINES Especiarias
+                    com a manteiga até formar uma massa com aspecto de areia
+                    molhada. Transfira essa massa para forminhas de torta e
+                    reserve; Em um recipiente, misture o Leite MOÇA com as
+                    gemas. Transfira esse creme para as forminhas reservadas e,
+                    em seguida, arrume as maças por cima do creme, com a casca
+                    virada para cima; Leve para assar na AirFryer pré-aquecida
+                    180ºC por cerca de 20 minutos ou até que estejam douradas.
+                    Sirva quente com uma bola de sorvete.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="terceira-linha">
+            <div class="col-12" id="titulo"></div>
+            <div class="row">
+              <div class="col-md-4" id="café-gelado">
+                <div class="card-body">
+                  <h5 class="card-title">Café Gelado Cremoso</h5>
+                  <img
+                    src="/img/gelado.jpeg"
+                    class="card-img-top"
+                    alt="Cafe Gelado Cremoso"
+                  />
+                  <p>
+                    <span class="card-span">Tempo de preparo:</span> 25 Minutos
+                  </p>
+                  <p><span class="card-span">Ingredientes:</span></p>
+                  <ul class="card-list">
+                    <li class="list">
+                      70ml de café Baggio, previamente preparado e resfriado
+                    </li>
+                    <li class="list">Gelo a gosto</li>
+                    <li class="list">
+                      2 colheres de sopa de leite condensado;
+                    </li>
+                    <li class="list">3 colheres de sopa de creme de leite;</li>
+                  </ul>
+                  <hr />
+                  <p><span class="card-span">Modo de Preparo:</span></p>
+                  <p>
+                    Em um copo, misture o café resfriado com o leite condensado;
+                    Adicione os cubos de gelo; Acrescente o creme de leite e
+                    finalize com o chantilly por cima; Delicie-se com a textura
+                    cremosa deste café irresistível.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4" id="sanduiche">
+                <div class="card-body">
+                  <h5 class="card-title">Sanduiche de Forno</h5>
+                  <img
+                    src="/img/sanduiche.jpg"
+                    class="card-img-top"
+                    alt="foto Sanduiche de Forno"
+                  />
+                  <p>
+                    <span class="card-span">Tempo de preparo:</span> 50 Minutos
+                  </p>
+                  <p><span class="card-span">Ingredientes:</span></p>
+                  <ul class="card-list">
+                    <li class="list">pão de forma (quantidade que desejar)</li>
+                    <li class="list">250 gramas de maionese1/2 cebola</li>
+                    <li class="list">molho de tomate pronto</li>
+                    <li class="list">200 gramas de presunto fatiado</li>
+                    <li class="list">200 gramas de muçarela fatiada</li>
+                    <li class="list">250 gramas de requeijão cremoso</li>
+                    <li class="list">1 tomate cortado em rodelas</li>
+                    <li class="list">leite para umedecer o pão de forma</li>
+                    <li class="list">orégano a gosto</li>
+                  </ul>
+                  <hr />
+                  <p><span class="card-span">Modo de Preparo:</span></p>
+                  <p>
+                    Em uma tigela adicione a maionese, o requeijão cremoso,
+                    misture bem e reserve; Em uma forma espalhe molho de tomate
+                    e faça uma camada com pão de forma levemente úmido com
+                    leite; Em cima da primeira camada de pão, adicione o creme
+                    de requeijão com maionese; Faça uma camada de presunto
+                    fatiado e uma camada de muçarela fatiada; Cubra o recheio
+                    com mais uma camada de molho de tomate e faça mais uma
+                    camada com pão umedecido no leite; Repita mais uma camada de
+                    creme + presunto + queijo e tampe a torta com mais uma
+                    camada de pão; Passe o creme em cima da última camada e
+                    adicione queijo muçarela em cima; Decore com rodelas de
+                    tomate e orégano a gosto; Leve o lanche para o forno
+                    preaquecido a 180º por 25 minutos; Depois é só servir!
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4" id="romeu">
+                <div class="card-body">
+                  <h5 class="card-title">Romeu e Julieta no forno</h5>
+                  <img
+                    src="/img/romeu.jpg"
+                    class="card-img-top"
+                    alt="Romeu e Julieta no forno"
+                  />
+                  <p>
+                    <span class="card-span">Tempo de preparo:</span> 45 Minutos
+                  </p>
+                  <p><span class="card-span">Ingredientes:</span></p>
+                  <ul class="card-list">
+                    <li class="list">4 ovos</li>
+                    <li class="list">2 copos de requeijão</li>
+                    <li class="list">1 lata de creme de leite</li>
+                    <li class="list">600 gramas de goiabada em fatias</li>
+                    <li class="list">
+                      Farinha de trigo o quanto baste para empanar
+                    </li>
+                  </ul>
+                  <hr />
+                  <p><span class="card-span">Modo de Preparo:</span></p>
+                  <p>
+                    1 No liquidificador, coloque os ovos, o requeijão e o creme
+                    de leite. Bata até que vire uma mistura homogênea. Passe
+                    cada uma das fatias de goiabada na farinha de trigo para
+                    empanar. Com as fatias de goiabada empanadas, forre as
+                    laterais e o fundo de uma travessa. Cubra as fatias de
+                    goiabada com a mistura do liquidificador. Leve ao forno
+                    preaquecido a 180 graus Célsius por 35 minutos. Sua receita
+                    de Romeu e Julieta no forno está pronta para servir. Bom
+                    apetite!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="contact-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Entre em Contato Conosco</h3>
+            </div>
+            <div class="col-md-4 contact-box">
+              <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank">
+                <i class="fas fa-phone"></i>
+                <p>
+                  <span class="contact-title">Ligue para: </span>(11)12345-8888
+                </p></a
+              >
+              <p><span class="contact-title">Horario:</span>(11)8:00 - 19:00</p>
+            </div>
+
+            <div class="col-md-4 contact-box">
+              <a href="mailto:comercial@meumundo.com.br" target="_blank"
+                ><i class="fas fa-envelope"></i>
+                <p><span class="contact-title">Envie um E-mail: </span></p>
+                <p>comercial@meumundo.com.br</p></a
+              >
+            </div>
+
+            <div class="col-md-4 contact-box">
+              <a href="https://www.google.com.br/maps/preview" target="_blank"
+                ><i class="fas fa-map-marker-alt"></i>
+                <p><span class="contact-title">Venha nos Visitar: </span></p>
+                <p>Rua Dr. Jailson Mendes - 24 - Bairro da Delicia</p></a
+              >
+            </div>
+            <div class="col-md-6" id="msg-box">
+              <p>Nos deixe uma mensagem:</p>
+            </div>
+            <div class="col-md-6" id="contact-form">
+              <form action="">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="E-mail"
+                  name="email"
+                />
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Assunto"
+                  name="subject"
+                />
+                <textarea
+                  class="form-control"
+                  rows="3"
+                  placeholder="Sua mensagem..."
+                  name="message"
+                ></textarea>
+                <input type="submit" class="main-btn" />
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12" id="media-bar">
+              <div class="row">
+                <div class="col" id="link-box">
+                  <a
+                    href="https://www.facebook.com/?locale=pt_BR"
+                    target="_blank"
+                    ><i class="fa-brands fa-facebook-f"></i>
+                    <p><span class="link-text">@MeuMundo</span></p></a
+                  >
+                </div>
+                <div class="col" id="link-box">
+                  <a href="https://www.instagram.com/" target="_blank"
+                    ><i class="fa-brands fa-instagram"></i>
+                    <p><span class="link-text">@MeuMundo</span></p></a
+                  >
+                </div>
+                <div class="col" id="link-box">
+                  <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank"
+                    ><i class="fa-brands fa-whatsapp"></i>
+                    <p><span class="link-text">Whatsapp</span></p></a
+                  >
+                </div>
+                <div class="col" id="link-box">
+                  <a href="https://telegram.org/?setln=pt-br" target="_blank">
+                    <i class="fa-brands fa-telegram"></i>
+                    <p><span class="link-text">Telegram</span></p></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="copy-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>
+                <a href="index.html">MeuMundo | Receitas</a> - Todos os
+                direitos reservados 2024 &copy;
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

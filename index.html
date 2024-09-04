@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <title>MeuMundo | Receitas</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="img/salada64px.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Estilos -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/bf7e05c402.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Progress Bar -->
+    <script src="js/progressbar.min.js"></script>
+    <!-- Parallax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container" id="nav-container">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+          <a class="navbar-brand" href="index.html">
+            <img
+              id="logo"
+              src="img/salada64px.png"
+              alt="logo do site"
+            />MeuMundo | Receitas
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar-links"
+            aria-controls="navbar-links"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span><i class="navbar-toggler-icon"></i> </span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbar-links"
+          >
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="index.html" id="home-menu"
+                >Home</a
+              >
+              <a
+                class="nav-item nav-link"
+                href="Receitas.html"
+                id="pagina-receita"
+                >Receitas</a
+              >
+              <a
+                class="nav-item nav-link"
+                href="Cadastro.html"
+                id="pagina-cadastro"
+                >Cadastro</a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!---->
+    <!---->
+    <main>
+      <section class="banner">
+        <div class="container">
+          <h1 class="titulo-banner">MeuMundo | Receitas</h1>
+          <p class="paragrafo-banner">
+            Ola! Seja bem vindo! Este é o Meu Mundo Receitas, aqui você encontra
+            o melhor de receitas caseiras. Então acomode-se fique a vontade!
+          </p>
+          <div class="bot-receita">
+            <a href="Receitas.html"
+              ><button id="receita" type="button">
+                Conheça nossas receitas
+              </button></a
+            >
+          </div>
+        </div>
+      </section>
+      <div id="about-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Bem Vindo ao MeuMundo | Receitas</h3>
+            </div>
+            <div class="col-md-6">
+              <img
+                class="img-fluid"
+                src="img/Batata.jpg"
+                alt="comida-deliciosa"
+              />
+            </div>
+            <div class="col-md-6">
+              <h3 class="about-title">
+                O seu portal favorito de receitas caseiras!
+              </h3>
+              <p class="text-center">
+                Descubra, cozinhe e saboreie bem-vindo ao mundo dos sabores com
+                MeuMundo!
+              </p>
+              <p class="text-center">
+                Explore receitas detalhadas, dicas práticas e sugestões que vão
+                transformar suas refeições em momentos especiais.
+              </p>
+
+              <p class="text-center">
+                Nosso site tem tudo o que você precisa para preparar pratos
+                incríveis com confiança!
+              </p>
+
+              <ul id="about-list">
+                <li><i class="fas fa-check"></i> Receitas Práticas</li>
+                <li>
+                  <i class="fas fa-check"></i> Baixo custo, totalmente caseiras
+                </li>
+                <li>
+                  <i class="fas fa-check"></i> Receitas doces, salgadas e muito
+                  mais
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+<section>
+  <div class="container">
+    <h3 class="main-title">Dicas para cozinhar!</h3>
+    <ul class="list-group list-group-flush">
+    <li class="list-group-item">Leia a Receita Inteira Antes de Começar;</li>
+    <li class="list-group-item">Use Ingredientes Frescos;</li>
+    <li class="list-group-item">Organize Seus Ingredientes;</li>
+    <li class="list-group-item">Tempere Bem: Sal e pimenta são essenciais para realçar o sabor dos alimentos. Experimente temperar durante o cozimento, não só no final.</li>
+    <li class="list-group-item">Use Utensílios Afiados: Facas afiadas não só tornam o corte mais fácil e preciso, como também são mais seguras de usar;</li>
+    <li class="list-group-item">Controle a Temperatura: Cozinhar em fogo baixo ou médio permite maior controle e ajuda a evitar que os alimentos queimem ou fiquem secos;</li>
+    <li class="list-group-item">Deguste ao Longo do Processo: Provar os alimentos enquanto cozinha ajuda a ajustar os temperos e a garantir que o prato fique perfeito.</li>
+    <li class="list-group-item">Não Tenha Medo de Experimentar: Cozinhar é uma arte. Não tenha medo de fazer substituições ou experimentar novos sabores.</li>
+    <li class="list-group-item">Limpe Enquanto Cozinha: Manter a área de trabalho organizada e limpa ajuda a evitar acidentes e facilita a finalização do prato.</li>
+    <li class="list-group-item">Descanso dos Alimentos: Deixe carnes e pães descansarem após o cozimento. Isso ajuda a redistribuir os sucos e a melhorar a textura final.</li>
+    </ul>
+  </div>
+</section>
+
+
+
+    </main>
+    <footer>
+      <div id="contact-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Entre em Contato Conosco</h3>
+            </div>
+            <div class="col-md-4 contact-box">
+              <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank">
+                <i class="fas fa-phone"></i>
+                <p>
+                  <span class="contact-title">Ligue para: </span>(11)12345-8888
+                </p></a
+              >
+              <p><span class="contact-title">Horario:</span>(11)8:00 - 19:00</p>
+            </div>
+
+            <div class="col-md-4 contact-box">
+              <a href="mailto:comercial@meumundo.com.br" target="_blank"
+                ><i class="fas fa-envelope"></i>
+                <p><span class="contact-title">Envie um E-mail: </span></p>
+                <p>comercial@meumundo.com.br</p></a
+              >
+            </div>
+
+            <div class="col-md-4 contact-box">
+              <a href="https://www.google.com.br/maps/preview" target="_blank"
+                ><i class="fas fa-map-marker-alt"></i>
+                <p><span class="contact-title">Venha nos Visitar: </span></p>
+                <p>Rua Dr. Jailson Mendes - 24 - Bairro da Delicia</p></a
+              >
+            </div>
+            <div class="col-md-6" id="msg-box">
+              <p>Nos deixe uma mensagem:</p>
+            </div>
+            <div class="col-md-6" id="contact-form">
+              <form action="">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="E-mail"
+                  name="email"
+                />
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Assunto"
+                  name="subject"
+                />
+                <textarea
+                  class="form-control"
+                  rows="3"
+                  placeholder="Sua mensagem..."
+                  name="message"
+                ></textarea>
+                <input type="submit" class="main-btn" />
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12" id="media-bar">
+              <div class="row">
+                <div class="col" id="link-box">
+                  <a
+                    href="https://www.facebook.com/?locale=pt_BR"
+                    target="_blank"
+                    ><i class="fa-brands fa-facebook-f"></i>
+                    <p><span class="link-text">@MeuMundo</span></p></a
+                  >
+                </div>
+                <div class="col" id="link-box">
+                  <a href="https://www.instagram.com/" target="_blank"
+                    ><i class="fa-brands fa-instagram"></i>
+                    <p><span class="link-text">@MeuMundo</span></p></a
+                  >
+                </div>
+                <div class="col" id="link-box">
+                  <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank"
+                    ><i class="fa-brands fa-whatsapp"></i>
+                    <p><span class="link-text">Whatsapp</span></p></a
+                  >
+                </div>
+                <div class="col" id="link-box">
+                  <a href="https://telegram.org/?setln=pt-br" target="_blank">
+                    <i class="fa-brands fa-telegram"></i>
+                    <p><span class="link-text">Telegram</span></p></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="copy-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>
+                <a href="index.html">MeuMundo | Receitas</a> - Todos os
+                direitos reservados 2024 &copy;
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
