@@ -25,7 +25,8 @@ body {
   padding: 40px 0;
 }
 #about-area img {
-  margin-top: 20px;}
+  padding-top: 20px;
+}
 
 p,
 li {
@@ -59,7 +60,6 @@ header,
   color: #ffc68f;
   transition: all 0.6s;
   transform: scale(1.02);
-
 }
 /* texto do logo */
 
@@ -72,7 +72,6 @@ a {
   background-color: #8d1319;
   transition: all 0.6s;
   transform: scale(1.05);
-
 }
 
 #navbar-links a {
@@ -84,21 +83,21 @@ a {
   background-color: #8d1319;
   transition: all 0.6s;
   transform: scale(1.01);
-
 } /*hover dos links*/
 
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 1rem 0.8rem;
 }
 
-.banner {margin-top: 20px;
+.banner {
+  padding-top: 20px;
   background-image: url("../img/mesa.jpg");
   background-size: cover;
 }
 
 .titulo-banner {
   display: flex;
-  margin-top: 20px;
+  padding-top: 20px;
   margin-left: 6px;
   margin-right: 6px;
   justify-content: center;
@@ -112,7 +111,7 @@ a {
   text-align: center;
   margin-left: 6px;
   margin-right: 6px;
-  margin-top: 8px;
+  padding-top: 8px;
   font-size: 22px;
   justify-content: center;
   align-items: center;
@@ -155,7 +154,9 @@ a {
 /* .about-title {
   text-align: center;
 } */
-.fa-check{color: #c4141c;}
+.fa-check {
+  color: #c4141c;
+}
 #about-list {
   list-style: none;
 }
@@ -167,14 +168,17 @@ a {
 .list-group-item {
   background-color: #ffc68f;
 }
-#tip:hover{  transition: all 0.6s;
+#tip:hover {
+  transition: all 0.6s;
   transform: scale(1.02);
-  box-shadow:1px 1px 8px #bbbbbb;
+  box-shadow: 1px 1px 8px #bbbbbb;
 }
-#dicas{padding: 10px 10px;
-margin-bottom: 40px;}
+#dicas {
+  padding: 10px 10px;
+  margin-bottom: 40px;
+}
 footer {
-  margin-top: auto;
+  padding-top: auto;
 }
 
 .contact-box {
@@ -200,7 +204,6 @@ footer {
   box-shadow: 0px 0px 3px #929292;
   transition: all 0.6s;
   transform: scale(1.08);
-
 }
 
 .contact-box p {
@@ -260,8 +263,6 @@ footer {
   color: #c4141c;
   transition: all 0.6s;
   transform: scale(1.05);
-
-  
 }
 
 .link-text {
@@ -273,7 +274,6 @@ footer {
   color: #c4141c;
   transition: all 0.6s;
   transform: scale(1.05);
-
 }
 
 #copy-area {
@@ -301,7 +301,7 @@ footer {
 
 #news-area {
   padding: 40px;
-  margin-top: 20px;
+  padding-top: 20px;
   text-align: center;
 }
 #news-area p {
@@ -334,7 +334,6 @@ footer {
   cursor: pointer;
   transition: all 0.6s;
   transform: scale(1.05);
-
 }
 
 #inputGroupSelect01 {
@@ -352,14 +351,19 @@ footer {
   box-sizing: border-box;
 }
 
-#titulo{margin-top: 100px;
-margin-bottom: -20px;}
+#titulo {
+  padding-top: 100px;
+  margin-bottom: -20px;
+}
 
-
-#cards{display: contents;}
-.card-img-top{width: 100%;
-object-fit: cover;
-height: 30vh;}
+#cards {
+  display: contents;
+}
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+  height: 30vh;
+}
 
 .card-body {
   margin: 40px;
@@ -368,10 +372,10 @@ height: 30vh;}
 }
 .card-body p {
   text-align: center;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 .card-body:hover {
-  transform: scale(1.08);
+  transform: scale(1.04);
   box-shadow: 1px 1px 4px #495057;
   transition: all 0.4s;
 }
@@ -387,9 +391,8 @@ height: 30vh;}
   color: #8d1319;
 }
 
-
 .receita-area .main-title {
-  margin-top: 30px;
+  padding-top: 30px;
   margin-bottom: 10px;
   font-size: 2.5rem;
 }
@@ -400,23 +403,30 @@ height: 30vh;}
   }
 
   #about-area img {
-    margin-top: 100px;
+    padding-top: 100px;
   }
   .nav article {
     width: 100%;
     height: auto;
   }
-  .card-img-top{width: 100%;
-  object-fit: cover;
-height: 20vh;}
-  .card-body{margin: 10px;}
+  .card-img-top {
+    width: 100%;
+    object-fit: cover;
+    height: 20vh;
+  }
+  .card-body {
+    margin: 10px;
+  }
   .card-body:hover {
     transform: scale(1.02);
     box-shadow: 1px 1px 4px #495057;
-    transition: all 0.4s;}
+    transition: all 0.4s;
+  }
 
-    #titulo{margin-top: 80px;
-    margin-bottom: 0px;}
+  #titulo {
+    padding-top: 80px;
+    margin-bottom: 0px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -424,15 +434,22 @@ height: 20vh;}
     padding: 40px 0;
   }
   #dicas {
-    margin-top: -60px;
-    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #bot-2 {
+    padding-top: 0px;
   }
   #about-area {
-    margin-top: -20px;
+    padding-top: -20px;
+  }
+  #about {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
 
   #about-area img {
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 20px;
   }
   .main-title {
@@ -443,19 +460,24 @@ height: 20vh;}
   }
 
   #cadastro {
-    margin-top: -20px;
+    padding-top: -20px;
   }
   #news-area {
     padding: 12px;
   }
-  .card-body{margin: 10px;}
+  .card-body {
+    margin: 10px;
+  }
   .card-body:hover {
     transform: scale(1.02);
     box-shadow: 1px 1px 4px #495057;
-    transition: all 0.4s;}
+    transition: all 0.4s;
+  }
 
-    #titulo{margin-top: 80px;
-    margin-bottom: 0px;}
+  #titulo {
+    padding-top: 80px;
+    margin-bottom: 0px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -463,15 +485,19 @@ height: 20vh;}
     padding: 40px 0;
   }
   #dicas {
-    margin-top: -60px;
-    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    padding-top: -60px;
+  }
+  #bot-2 {
+    padding-top: 0px;
   }
   #about-area {
-    margin-top: -20px;
+    padding-top: -20px;
   }
 
   #about-area img {
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 20px;
   }
   .main-title {
@@ -482,37 +508,42 @@ height: 20vh;}
   }
 
   #cadastro {
-    margin-top: -20px;
+    padding-top: -20px;
   }
   #news-area {
     padding: 12px;
   }
-  .card-body{margin: 10px;
+  .card-body {
+    margin: 10px;
   }
   .card-body:hover {
     transform: scale(1.02);
     box-shadow: 1px 1px 4px #495057;
     transition: all 0.4s;
-}
-#titulo{margin-top: 80px;
-margin-bottom: 0px;}
+  }
+  #titulo {
+    padding-top: 80px;
+    margin-bottom: 0px;
+  }
 }
 
 @media (max-width: 320px) {
   .container {
     padding: 40px 0;
   }
-  .banner{margin-top: 50px;}
+  .banner {
+    padding-top: 50px;
+  }
   #dicas {
-    margin-top: -60px;
+    padding-top: -60px;
     padding: 20px;
   }
   #about-area {
-    margin-top: -20px;
+    padding-top: -20px;
   }
 
   #about-area img {
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 20px;
   }
   .main-title {
@@ -521,21 +552,32 @@ margin-bottom: 0px;}
   .about-title {
     text-align: center;
   }
-#letter{margin-top: 60px;}
+  #bot-2 {
+    padding-top: 0px;
+  }
+  #dicas {
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+  }
+  #letter {
+    padding-top: 60px;
+  }
   #cadastro {
-    margin-top: -20px;
+    padding-top: -20px;
   }
   #news-area {
     padding: 12px;
   }
-  .card-body{margin: 10px;
+  .card-body {
+    margin: 10px;
   }
   .card-body:hover {
     transform: scale(1.02);
     box-shadow: 1px 1px 4px #495057;
     transition: all 0.4s;
+  }
+  #titulo {
+    margin-bottom: 0;
+    padding-top: 120px;
+  }
 }
-#titulo{margin-bottom: 0;margin-top: 120px;}
-}
-
-
