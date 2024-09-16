@@ -17,7 +17,9 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+.col-12 {
+  padding: 0 30px;
+}
 .row {
   margin: 0;
 }
@@ -26,10 +28,14 @@ body {
 }
 #about-area img {
   padding-top: 20px;
+  padding-bottom: 20px;
 }
-
+#about {
+  background-color: #fbd49f;
+}
 p,
 li {
+  list-style: none;
   color: #444444;
   font-size: 16px;
 }
@@ -144,20 +150,31 @@ a {
 }
 
 #contact-area {
-  background-color: #fddbae;
+  background-color: burlywood;
   text-align: center;
+}
+#sobre {
+  margin-top: -10px;
 }
 .main-title {
-  text-align: center;
-  margin: 0 0 65px 0;
+  margin: 0 0 20px 0;
 }
-/* .about-title {
-  text-align: center;
-} */
+.about-title {
+  color: #444444;
+}
+.text-start {
+  margin: 0;
+}
 .fa-check {
   color: #c4141c;
 }
+#sobre-mesa {
+  max-width: 80%;
+}
 #about-list {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
   list-style: none;
 }
 
@@ -166,18 +183,39 @@ a {
 }
 
 .list-group-item {
-  background-color: #ffc68f;
+  color: #fbd49f;
+  background-color: #8d1319;
 }
 #tip:hover {
   transition: all 0.6s;
   transform: scale(1.02);
   box-shadow: 1px 1px 8px #bbbbbb;
 }
+#about h2 {
+  color: #c4141c;
+}
 #dicas {
-  padding: 10px 10px;
+  background-color: #fbd49f;
+  padding: 10px 40px;
   margin-bottom: 40px;
 }
-footer {
+#subs {
+  padding: 40px;
+  margin-top: -40px;
+  background-color: #fbd49f;
+}
+#opniao h6 {
+  color: #c4141c;
+}
+#opniao {
+  padding: 20px;
+  border: solid 2px burlywood;
+}
+.fa-star,
+.fa-star-half-stroke {
+  color: #c4141c;
+}
+.footer {
   padding-top: auto;
 }
 
@@ -222,8 +260,9 @@ footer {
 #contact-form input[type="email"],
 #contact-form textarea {
   border: solid 1px #8d1319;
-  margin-bottom: 15px;
-  background-color: #faebd7;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #fae6d2;
 }
 #contact-form .main-btn {
   width: 120px;
@@ -298,21 +337,34 @@ footer {
   text-decoration: none;
   color: #ffc68f;
 }
+#letter {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.input-group {
+  align-items: center;
+}
+.label {
+  align-items: center;
+  margin-bottom: 0px;
+}
 
 #news-area {
-  padding: 40px;
-  padding-top: 20px;
-  text-align: center;
+  padding-top: 40px;
 }
 #news-area p {
   font-size: 18px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
-
+#news-form {
+  background: #fbd49f;
+  padding: 20px 20px;
+}
 #news-form input {
+  align-items: center;
   border: solid 1px #8d1319;
 
-  background-color: #faebd7;
+  background-color: #fae6d2;
 }
 
 #basic-addon1 {
@@ -324,7 +376,7 @@ footer {
 }
 
 #news-btn.form-control {
-  color: #faebd7;
+  color: #fde3c0;
   background: #8d1319;
 }
 
@@ -336,22 +388,21 @@ footer {
   transform: scale(1.05);
 }
 
-#inputGroupSelect01 {
-  color: #495057;
-  border: solid 1px #8d1319;
-
-  background-color: #faebd7;
-}
 .input-group-text {
-  padding-left: 0.2rem;
+  align-items: center;
 }
 
 /*Receitas*/
 .receita-area {
+  padding: 0px 40px;
   box-sizing: border-box;
 }
-
+#receita-topo {
+  margin-top: 100px;
+  padding: 0px;
+}
 #titulo {
+  color: #c4141c;
   padding-top: 100px;
   margin-bottom: -20px;
 }
@@ -368,7 +419,7 @@ footer {
 .card-body {
   margin: 40px;
   margin-bottom: 40px;
-  background-color: #ffc68f;
+  background-color: #fbd49f;
 }
 .card-body p {
   text-align: center;
@@ -396,147 +447,68 @@ footer {
   margin-bottom: 10px;
   font-size: 2.5rem;
 }
-
-@media (max-width: 768px) {
-  .container {
-    padding: 40px 0;
-  }
-
-  #about-area img {
-    padding-top: 100px;
-  }
-  .nav article {
-    width: 100%;
-    height: auto;
-  }
-  .card-img-top {
-    width: 100%;
-    object-fit: cover;
-    height: 20vh;
-  }
-  .card-body {
-    margin: 10px;
-  }
-  .card-body:hover {
-    transform: scale(1.02);
-    box-shadow: 1px 1px 4px #495057;
-    transition: all 0.4s;
-  }
-
-  #titulo {
-    padding-top: 80px;
-    margin-bottom: 0px;
-  }
+#bot-2 {
+  text-align: center;
+  padding: 40px;
+  margin-top: -40px;
+  background-color: #fbd49f;
 }
-
-@media (max-width: 425px) {
-  .container {
-    padding: 40px 0;
-  }
-  #dicas {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  #bot-2 {
-    padding-top: 0px;
-  }
-  #about-area {
-    padding-top: -20px;
-  }
-  #about {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-  }
-
-  #about-area img {
-    padding-top: 20px;
-    margin-bottom: 20px;
-  }
-  .main-title {
-    margin: 20px;
-  }
-  .about-title {
-    text-align: center;
-  }
-
-  #cadastro {
-    padding-top: -20px;
-  }
-  #news-area {
-    padding: 12px;
-  }
-  .card-body {
-    margin: 10px;
-  }
-  .card-body:hover {
-    transform: scale(1.02);
-    box-shadow: 1px 1px 4px #495057;
-    transition: all 0.4s;
-  }
-
-  #titulo {
-    padding-top: 80px;
-    margin-bottom: 0px;
-  }
+.c-item {
+  text-decoration: none;
+  padding: 0 40px;
+  height: 480px;
 }
-
-@media (max-width: 375px) {
-  .container {
-    padding: 40px 0;
-  }
-  #dicas {
-    padding-bottom: 0px;
-    margin-bottom: 20px;
-    padding-top: -60px;
-  }
-  #bot-2 {
-    padding-top: 0px;
-  }
-  #about-area {
-    padding-top: -20px;
-  }
-
-  #about-area img {
-    padding-top: 20px;
-    margin-bottom: 20px;
-  }
-  .main-title {
-    margin: 20px;
-  }
-  .about-title {
-    text-align: center;
-  }
-
-  #cadastro {
-    padding-top: -20px;
-  }
-  #news-area {
-    padding: 12px;
-  }
-  .card-body {
-    margin: 10px;
-  }
-  .card-body:hover {
-    transform: scale(1.02);
-    box-shadow: 1px 1px 4px #495057;
-    transition: all 0.4s;
-  }
-  #titulo {
-    padding-top: 80px;
-    margin-bottom: 0px;
-  }
+.c-img {
+  height: 100%;
+  object-fit: cover;
 }
-
-@media (max-width: 320px) {
-  .container {
-    padding: 40px 0;
+.c-item a {
+  text-decoration: none;
+}
+.c-item h5:hover {
+  transform: scale(1.04);
+  transition: all 0.4s;
+}
+.c-item h5 {
+  color: #faebd7;
+  margin: 0;
+  font-size: 22px;
+  text-shadow: 1px 1px 1px #272626;
+}
+.c-item p {
+  font-size: 18px;
+  color: #faebd7;
+  text-shadow: 1px 1px 1px #272626;
+}
+.text-center{color: #c4141c;}
+@media(max-width: 1024px){
+  .col-12 {
+    padding: 0 20px;
   }
+  .container {
+    padding: 0px;
+  }
+
   .banner {
+    padding-bottom: 20px;
     padding-top: 50px;
   }
+  .titulo-banner {
+    text-align: center;
+  }
+  #about-list li {
+    margin-left: -40px;
+  }
+
   #dicas {
+    margin-top: -20px;
     padding-top: -60px;
-    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #about {
+    padding: 0px;
   }
   #about-area {
     padding-top: -20px;
@@ -547,10 +519,9 @@ footer {
     margin-bottom: 20px;
   }
   .main-title {
-    margin: 20px;
+    margin: 20px 0px;
   }
   .about-title {
-    text-align: center;
   }
   #bot-2 {
     padding-top: 0px;
@@ -559,8 +530,12 @@ footer {
     margin-bottom: 20px;
     padding-bottom: 0px;
   }
+  #dicas h3 {
+    margin: 20px;
+  }
   #letter {
-    padding-top: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
   #cadastro {
     padding-top: -20px;
@@ -580,4 +555,427 @@ footer {
     margin-bottom: 0;
     padding-top: 120px;
   }
+  #about-area img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .c-item {
+    padding: 0;
+    height: 420px;
+  }
+  #subs {
+    padding: 20px 0px;
+  }
+  #subs h5 {
+    margin: 20px;
+  }
+  #opniao {
+    padding: 0px 10px;
+  }
+  #bot-2 {
+    padding-top: 20px;
+  }
+  .col-md-4{padding: 0px;
+    margin: 0px;}
+    .receita-area{padding: 0 0px;}
+    .card-body{margin: 20 0px;}
+}
+@media (max-width: 768px) {
+  .col-12 {
+    padding: 0 20px;
+  }
+  .container {
+    padding: 0px;
+  }
+
+  .banner {
+    padding-bottom: 20px;
+    padding-top: 50px;
+  }
+  .titulo-banner {
+    text-align: center;
+  }
+  #about-list li {
+    margin-left: -40px;
+  }
+
+  #dicas {
+    margin-top: -20px;
+    padding-top: -60px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #about {
+    padding: 0px;
+  }
+  #about-area {
+    padding-top: -20px;
+  }
+
+  #about-area img {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  .main-title {
+    margin: 20px 0px;
+  }
+  .about-title {
+  }
+  #bot-2 {
+    padding-top: 0px;
+  }
+  #dicas {
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+  }
+  #dicas h3 {
+    margin: 20px;
+  }
+  #letter {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  #cadastro {
+    padding-top: -20px;
+  }
+  #news-area {
+    padding: 12px;
+  }
+  .card-body {
+    margin: 10px;
+  }
+  .card-body:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 4px #495057;
+    transition: all 0.4s;
+  }
+  #titulo {
+    margin-bottom: 0;
+    padding-top: 120px;
+  }
+  #about-area img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .c-item {
+    padding: 0;
+    height: 420px;
+  }
+  #subs {
+    padding: 20px 0px;
+  }
+  #subs h5 {
+    margin: 20px;
+  }
+  #opniao {
+    padding: 0px 10px;
+  }
+  #bot-2 {
+    padding-top: 20px;
+  }
+  .col-md-4{padding: 0px;
+    margin: 0px;}
+    .receita-area{padding: 0 0px;}
+    .card-body{margin: 20 0px;}
+}
+
+@media (max-width: 425px) {
+  .col-12 {
+    padding: 0 20px;
+  }
+  .container {
+    padding: 0px;
+  }
+
+  .banner {
+    padding-bottom: 20px;
+    padding-top: 50px;
+  }
+  .titulo-banner {
+    text-align: center;
+  }
+  #about-list li {
+    margin-left: -40px;
+  }
+
+  #dicas {
+    margin-top: -20px;
+    padding-top: -60px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #about {
+    padding: 0px;
+  }
+  #about-area {
+    padding-top: -20px;
+  }
+
+  #about-area img {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  .main-title {
+    margin: 20px 0px;
+  }
+  .about-title {
+  }
+  #bot-2 {
+    padding-top: 0px;
+  }
+  #dicas {
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+  }
+  #dicas h3 {
+    margin: 20px;
+  }
+  #letter {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  #cadastro {
+    padding-top: -20px;
+  }
+  #news-area {
+    padding: 12px;
+  }
+  .card-body {
+    margin: 10px;
+  }
+  .card-body:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 4px #495057;
+    transition: all 0.4s;
+  }
+  #titulo {
+    margin-bottom: 0;
+    padding-top: 120px;
+  }
+  #about-area img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .c-item {
+    padding: 0;
+    height: 240px;
+  }
+  #subs {
+    padding: 20px 0px;
+  }
+  #subs h5 {
+    margin: 20px;
+  }
+  #opniao {
+    padding: 0px 10px;
+  }
+  #bot-2 {
+    padding-top: 20px;
+  }
+  .col-md-4{padding: 0px;
+    margin: 0px;}
+    .receita-area{padding: 0 0px;}
+    .card-body{margin: 20 0px;}
+}
+
+@media (max-width: 375px) {
+  .col-12 {
+    padding: 0 20px;
+  }
+  .container {
+    padding: 0px;
+  }
+
+  .banner {
+    padding-bottom: 20px;
+    padding-top: 50px;
+  }
+  .titulo-banner {
+    text-align: center;
+  }
+  #about-list li {
+    margin-left: -40px;
+  }
+
+  #dicas {
+    margin-top: -20px;
+    padding-top: -60px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #about {
+    padding: 0px;
+  }
+  #about-area {
+    padding-top: -20px;
+  }
+
+  #about-area img {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  .main-title {
+    margin: 20px 0px;
+  }
+  .about-title {
+  }
+  #bot-2 {
+    padding-top: 0px;
+  }
+  #dicas {
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+  }
+  #dicas h3 {
+    margin: 20px;
+  }
+  #letter {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  #cadastro {
+    padding-top: -20px;
+  }
+  #news-area {
+    padding: 12px;
+  }
+  .card-body {
+    margin: 10px;
+  }
+  .card-body:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 4px #495057;
+    transition: all 0.4s;
+  }
+  #titulo {
+    margin-bottom: 0;
+    padding-top: 120px;
+  }
+  #about-area img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .c-item {
+    padding: 0;
+    height: 240px;
+  }
+  #subs {
+    padding: 20px 0px;
+  }
+  #subs h5 {
+    margin: 20px;
+  }
+  #opniao {
+    padding: 0px 10px;
+  }
+  #bot-2 {
+    padding-top: 20px;
+  }
+  .col-md-4{padding: 0px;
+    margin: 0px;}
+    .receita-area{padding: 0 0px;}
+    .card-body{margin: 20 0px;}
+}
+
+@media (max-width: 320px) {
+  .col-12 {
+    padding: 0 20px;
+  }
+  .container {
+    padding: 0px;
+  }
+
+  .banner {
+    padding-bottom: 20px;
+    padding-top: 100px;
+  }
+  .titulo-banner {
+    text-align: center;
+  }
+  #about-list li {
+    margin-left: -40px;
+  }
+
+  #dicas {
+    margin-top: -20px;
+    padding-top: -60px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #about {
+    padding: 0px;
+  }
+  #about-area {
+    padding-top: -20px;
+  }
+
+  #about-area img {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  .main-title {
+    margin: 20px 0px;
+  }
+  .about-title {
+  }
+  #bot-2 {
+    padding-top: 0px;
+  }
+  #dicas {
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+  }
+  #dicas h3 {
+    margin: 20px;
+  }
+  #letter {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  #cadastro {
+    padding-top: -20px;
+  }
+  #news-area {
+    padding: 12px;
+  }
+  .card-body {
+    margin: 10px;
+  }
+  .card-body:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 4px #495057;
+    transition: all 0.4s;
+  }
+  #titulo {
+    margin-bottom: 0;
+    padding-top: 120px;
+  }
+  #about-area img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .c-item {
+    padding: 0;
+    height: 240px;
+  }
+  #subs {
+    padding: 20px 0px;
+  }
+  #subs h5 {
+    margin: 20px;
+  }
+  #opniao {
+    padding: 0px 10px;
+  }
+  #bot-2 {
+    padding-top: 20px;
+  }
+  .col-md-4{padding: 0px;
+  margin: 0px;}
+  .receita-area{padding: 0 0px;}
+  .card-body{margin: 20 0px;}
 }

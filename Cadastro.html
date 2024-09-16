@@ -106,125 +106,110 @@
             <h3 class="main-title" id="letter">
               Cadastre-se e fique por dentro das nossas novidades!
             </h3>
-            <p>Receba nossas receitas em primeira mão em seu E-mail!</p>
           </div>
         </div>
 
         <form action="" id="news-form">
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">E-mail</span>
+          <div class="mb-3">
+            <label for="email">Seu E-mail*</label>
             <input
               type="email"
               class="form-control"
-              placeholder="Seu E-mail. ex.: email@adress.com"
-              aria-label="Username"
-              aria-describedby="basic-addon1"
+              id="email"
+              placeholder="Ex: email@adress.com"
               required
             />
           </div>
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Nome</span>
+          <div class="mb-3">
+            <label for="nome">Nome*</label>
             <input
               type="text"
               class="form-control"
-              placeholder="Seu Nome ex.: Jailson"
-              aria-label="Username"
-              aria-describedby="basic-addon1"
+              id="nome"
+              placeholder="Ex.: Jailson"
               required
             />
           </div>
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Sobrenome</span>
+          <div class="mb-3">
+            <label for="sobrenome">Sobrenome*</label>
             <input
               type="text"
               class="form-control"
-              placeholder="Seu Sobrenome. ex.: Mendes"
-              aria-label="Username"
-              aria-describedby="basic-addon1"
+              id="sobrenome"
+              placeholder="Ex: Mendes"
               required
             />
           </div>
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Telefone</span>
+          <div class="mb-3">
+            <label for="tele">Telefone*</label>
             <input
               type="tel"
               class="form-control"
-              placeholder="Seu Telefone. ex.: 11 12345-0000"
-              aria-label="Username"
-              aria-describedby="basic-addon1"
+              id="tele"
+              placeholder="Ex: 11 12345-0000"
               required
             />
           </div>
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">CEP</span>
+          <div class="mb-3">
+            <label for="cep">CEP*</label>
             <input
               type="number"
               class="form-control"
+              id="cep"
               placeholder="Ex.:00000-000"
-              aria-label="Username"
-              aria-describedby="basic-addon1"
               required
             />
           </div>
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Rua</span>
+          <div class="mb-3">
+            <label for="street">Rua*</label>
             <input
               type="text"
               class="form-control"
-              placeholder="Sua Rua: Dr. Jailson Mendes"
-              aria-label="Username"
-              aria-describedby="basic-addon1"
+              id="Rua"
+              placeholder="Ex: Dr. Jailson Mendes"
               required
             />
           </div>
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Numero</span>
+            <div class="mb-3">
+            <label for="numero">Numero*</label>
             <input
               type="number"
-              aria-label="First name"
+              id="numero"
               class="form-control"
-              placeholder="10"
-              required
             />
-            <span class="input-group-text" id="basic-addon1">Complemento</span>
+            </div>
+            <div class="mb-3">
+              <label for="comp">Complemento</label>
+              <input
+                type="number"
+                id="numero"
+                class="form-control"
+              />
+            </div>
+          <div class="mb-3">
+            <label for="bairro">Bairro*</label>
             <input
               type="text"
-              aria-label="Last name"
               class="form-control"
-              placeholder="ex.: apartamento abc"
-            />
-          </div>
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Bairro</span>
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Seu Bairro. ex.: Bairro da Delicia"
-              aria-label="Username"
-              aria-describedby="basic-addon1"
+              id="bairro"
+              placeholder="Ex: Bairro da Delicia"
               required
             />
           </div>
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Cidade</span>
+          <div class="mb-3">
+            <label for="cidade">Cidade*</label>
             <input
               type="text"
               class="form-control"
-              placeholder="Sua Cidade. ex.: São Paulo"
-              aria-label="Username"
-              aria-describedby="basic-addon1"
+              id="cidade"
+              placeholder="Ex: São Paulo"
               required
             />
           </div>
 
-          <div class="input-group mb-3">
-            <label
-              class="input-group-text"
-              for="inputGroupSelect01"
-              id="basic-addon1"
-              >UF</label
-            >
-            <select class="form-select" id="inputGroupSelect01" required>
+          <div class="mb-3">
+            <label for="uf">UF</label>
+            <select class="form-select" id="uf" required>
               <option value="" select>Selecione um Estado</option>
               <option value="AC">Acre</option>
               <option value="AL">Alagoas</option>
