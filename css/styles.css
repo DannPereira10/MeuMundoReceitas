@@ -33,6 +33,8 @@ body {
   padding: 10px 40px;
   background-color: #fbd49f;
 }
+#about h2{margin-top: 0px;
+padding-top: 10px;}
 p,
 li {
   list-style: none;
@@ -515,6 +517,10 @@ a {
     margin: 0px;
     padding: 0px;
   }
+  #subs h5 {font-size: 2.0rem;
+    margin: 0px;
+  }
+  #subs h6{font-size: 1.65rem;}
 }
 @media (max-width: 1024px) {
   .col-12 {
@@ -542,9 +548,7 @@ a {
     padding-right: 0px;
   }
 
-  #about {
-    padding: 0px;
-  }
+
   #about-area {
     padding-top: -20px;
   }
@@ -565,7 +569,7 @@ a {
     padding-bottom: 0px;
   }
   #dicas h3 {
-    margin: 20px;
+    margin: 0px;
   }
   #letter {
     margin-top: 50px;
@@ -600,9 +604,10 @@ a {
   #subs {
     padding: 20px 0px;
   }
-  #subs h5 {
-    margin: 20px;
+  #subs h5 {font-size: 2.0rem;
+    margin: 0px;
   }
+  #subs h6{font-size: 1.65rem;}
   #opniao {
     padding: 0px 10px;
   }
@@ -619,6 +624,10 @@ a {
   }
   .card-body {
     margin: 20 0px;
+  }
+  #media-bar {
+    margin-top: 30px;
+    margin-bottom: 0px;
   }
 }
 @media (max-width: 768px) {
@@ -639,13 +648,15 @@ a {
   #about-list li {
     margin-left: -40px;
   }
-
+  #about h2{margin-top: 0px;
+  padding-top: 10px;}
   #dicas {
     margin-top: -20px;
     padding-top: -60px;
     padding-left: 0px;
     padding-right: 0px;
   }
+  #dicas h3{font-size: 1.50rem;}
   #about {
     padding: 0px;
   }
@@ -708,15 +719,18 @@ a {
   #subs {
     padding: 20px 0px;
   }
-  #subs h5 {
-    margin: 20px;
+  #subs h5 {font-size: 1.65rem;
+    margin: 0px;
   }
+  #subs h6{font-size: 1.50rem;}
   #opniao {
     padding: 0px 10px;
   }
   #bot-2 {
     padding-top: 20px;
   }
+  #bot-2 h6{font-size: 1.65rem;
+  margin-top: 0px;}
   #msg-box {
     margin-top: 30px;
   }
@@ -734,9 +748,10 @@ a {
   .card-body {
     margin: 20 0px;
   }
+  #contact-area h3{font-size: 2.0rem;}
   #media-bar {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 }
 
@@ -765,7 +780,8 @@ a {
     padding-left: 0px;
     padding-right: 0px;
   }
-
+#about h2{margin-top: 0px;
+padding-top: 10px;}
   #about {
     padding: 0px;
   }
@@ -790,7 +806,8 @@ a {
     padding-bottom: 0px;
   }
   #dicas h3 {
-    margin: 20px;
+    font-size: 2rem;
+    margin: 0px;
   }
   #letter {
     margin-top: 70px;
@@ -828,15 +845,19 @@ a {
   #subs {
     padding: 20px 0px;
   }
-  #subs h5 {
-    margin: 20px;
+  #subs h5 {font-size: 1.65rem;
+    margin: 0px;
   }
+  #subs h6{font-size: 1.50rem;}
   #opniao {
     padding: 0px 10px;
   }
   #bot-2 {
     padding-top: 20px;
   }
+  #bot-2 h6{margin-top: 0px;
+    font-size: 1.5rem;}
+    #contact-area h3{font-size: 1.75rem;}
   .col-md-4 {
     padding: 0px;
     margin: 0px;
@@ -856,7 +877,7 @@ a {
   }
   #media-bar {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
 }
 
@@ -885,7 +906,8 @@ a {
     padding-left: 0px;
     padding-right: 0px;
   }
-
+ #about h2{margin-top: 0px;
+padding-top: 10px;}
   #about {
     margin-bottom: 20px;
     padding: 0px;
@@ -910,8 +932,13 @@ a {
     padding-bottom: 0px;
   }
   #dicas h3 {
-    margin: 20px;
+    margin: 0px;
   }
+  #subs h5{padding: 0px;
+    margin: 0px;
+    font-size: 1.65rem;
+    margin: 20px;}
+    #subs h6{font-size: 1.50rem;}
   #letter {
     margin-top: 70px;
     margin-bottom: 20px;
@@ -946,12 +973,11 @@ a {
   #subs {
     padding: 20px 0px;
   }
-  #subs h5 {
-    margin: 20px;
-  }
+
   #opniao {
     padding: 0px 10px;
   }
+  #bot-2 h6{font-size: 1.5rem;}
   #bot-2 {
     padding-top: 20px;
   }
@@ -974,7 +1000,7 @@ a {
   }
   #media-bar {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
   #receita-page {
     padding: 10px;
@@ -983,6 +1009,7 @@ a {
     padding-top: 0;
     margin-top: 0px;
   }
+  #contact-area h3{font-size: 1.5rem;}
 }
 
 @media (max-width: 320px) {
@@ -1010,12 +1037,13 @@ a {
     padding-left: 0px;
     padding-right: 0px;
   }
-
+  #about h2{margin-top: 0px;
+  padding: 10px;}
   #about {
     padding: 0px;
   }
   #about-area {
-    padding-top: -20px;
+    padding-top: -30px;
   }
 
   #about-area img {
@@ -1034,7 +1062,7 @@ a {
     padding-bottom: 0px;
   }
   #dicas h3 {
-    margin: 20px;
+    margin: 0px;
   }
 
   #letter {
@@ -1082,7 +1110,11 @@ a {
     padding: 20px 0px;
   }
   #subs h5 {
+    font-size: 1.25rem;
     margin: 20px;
+  }
+  #subs h6 {
+    font-size: 1.5rem;
   }
   #opniao {
     padding: 0px 10px;
@@ -1090,6 +1122,10 @@ a {
   #bot-2 {
     padding-top: 20px;
   }
+  #bot-2 h6 {padding: 10px;
+    font-size: 1.5rem;
+  }
+#contact-area h3{font-size: 1.5rem;}
   .col-md-4 {
     padding: 0px;
     margin: 0px;
@@ -1116,6 +1152,6 @@ a {
   }
   #media-bar {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
 }
